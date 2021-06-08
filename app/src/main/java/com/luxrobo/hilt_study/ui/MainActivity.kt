@@ -1,7 +1,8 @@
-package com.luxrobo.hilt_study
+package com.luxrobo.hilt_study.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.luxrobo.hilt_study.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
