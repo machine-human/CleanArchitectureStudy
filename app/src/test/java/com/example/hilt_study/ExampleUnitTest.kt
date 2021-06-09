@@ -1,4 +1,4 @@
-package com.luxrobo.hilt_study
+package com.example.hilt_study
 
 import org.junit.Test
 

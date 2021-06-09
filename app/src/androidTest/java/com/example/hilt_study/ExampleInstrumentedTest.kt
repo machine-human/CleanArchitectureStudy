@@ -1,4 +1,4 @@
-package com.luxrobo.hilt_study
+package com.example.hilt_study
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
