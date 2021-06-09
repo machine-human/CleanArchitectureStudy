@@ -39,30 +39,25 @@ android {
     }
 }
 
-ext {
-    rxkotlin_version = '3.0.1'
-    lifecycle_version = "2.3.1"
-}
-
 dependencies {
 
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation 'androidx.core:core-ktx:1.5.0'
-    implementation 'androidx.appcompat:appcompat:1.3.0'
-    implementation 'com.google.android.material:material:1.3.0'
+    implementation Libraries.KOTLIN_STDLIB
+    implementation Libraries.CORE_KTX
+    implementation Libraries.APPCOMPAT
+    implementation Libraries.MATERIAL
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     // RxKotlin
-    implementation "io.reactivex.rxjava3:rxkotlin:$rxkotlin_version"
+    implementation Libraries.RXKOTLIN
 
     // ViewModel
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    implementation Libraries.LIFECYCLE_VIEWMODEL_KTX
 
     // LiveData
-    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+    implementation Libraries.LIFECYCLE_LIVEDATA_KTX
 
     // Lifecycles only (without ViewModel or LiveData)
-    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
+    implementation Libraries.LIFECYCLE_RUNTIME_KTX
 }

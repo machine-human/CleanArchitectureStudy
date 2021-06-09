@@ -233,6 +233,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/buildSrc/build.gradle.kts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/buildSrc/src/main/kotlin/Depends.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/data/build.gradle">
           <value>
             <set />
