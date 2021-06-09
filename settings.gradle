@@ -1,2 +1,6 @@
 rootProject.name = "Hilt-Study"
 include ':app'
+include ':domain'
+include ':data'
+include ':presentation'
+include ':base'
