@@ -1,7 +1,7 @@
 package com.example.data.repositories
 
 import android.util.Log
-import com.example.data.WeatherDataSource
+import com.example.data.remote.WeatherDataSource
 import com.example.response.WeatherResponse
 import io.reactivex.rxjava3.disposables.Disposable
 import javax.inject.Inject

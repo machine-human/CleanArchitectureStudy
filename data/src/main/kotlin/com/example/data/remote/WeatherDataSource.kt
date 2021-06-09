@@ -1,4 +1,4 @@
-package com.example.data
+package com.example.data.remote
 
 import com.example.response.WeatherResponse
 import io.reactivex.rxjava3.disposables.Disposable

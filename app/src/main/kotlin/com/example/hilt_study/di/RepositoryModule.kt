@@ -1,5 +1,6 @@
 package com.example.hilt_study.di
 
+import com.example.data.remote.WeatherDataSource
 import com.example.data.repositories.WeatherRepositoryImpl
 import com.example.domain.WeatherRepository
 import dagger.Module
@@ -16,7 +17,7 @@ class RepositoryModule {
     @Provides
     @ViewModelScoped
     fun provideWeatherRepository(
-        dataSource: com.example.data.WeatherDataSource
+        dataSource: WeatherDataSource
     ): WeatherRepository =
         WeatherRepositoryImpl(weatherDataSource = dataSource)
 }

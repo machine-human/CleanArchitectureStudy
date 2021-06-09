@@ -168,6 +168,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/kotlin/com/example/hilt_study/di/DataSourceModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/kotlin/com/example/hilt_study/di/RepositoryModule.kt">
           <value>
             <set />
@@ -288,7 +293,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/data/src/main/kotlin/com/example/data/remote/WeatherDataSource.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/data/src/main/kotlin/com/example/data/remote/WeatherRemoteDataSource.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/data/src/main/kotlin/com/example/data/remote/weather/WeatherRemoteDataSource.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/data/src/main/kotlin/com/example/data/repositories/WeatherRepositoryImpl.kt">
           <value>
             <set />
           </value>
@@ -398,6 +418,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../Modiplay-v2-AOS/app/build/generated/source/kapt/debug/com/luxrobo/modiplay_v2/MyApplication_HiltComponents.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../Modiplay-v2-AOS/app/src/main/kotlin/com/luxrobo/modiplay_v2/MyApplication.kt">
           <value>
             <set />
@@ -449,6 +474,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../Modiplay-v2-AOS/data/src/main/kotlin/com/luxrobo/data/remote/weather/WeatherRemoteDataSource.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Modiplay-v2-AOS/data/src/main/kotlin/com/luxrobo/data/repositoryImpl/WeatherRepositoryImpl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Modiplay-v2-AOS/domain/build.gradle">
           <value>
             <set />
           </value>

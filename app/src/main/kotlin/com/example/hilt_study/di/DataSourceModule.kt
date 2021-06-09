@@ -1,6 +1,8 @@
 package com.example.hilt_study.di
 
 import com.example.data.network.api.WeatherApi
+import com.example.data.remote.WeatherDataSource
+import com.example.data.remote.weather.WeatherRemoteDataSource
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -16,6 +18,6 @@ class DataSourceModule {
     @ViewModelScoped
     fun provideWeatherDataSource(
         api: WeatherApi
-    ): com.example.data.WeatherDataSource =
-        com.example.data.remote.WeatherRemoteDataSource(weatherApi = api)
+    ): WeatherDataSource =
+        WeatherRemoteDataSource(weatherApi = api)
 }
